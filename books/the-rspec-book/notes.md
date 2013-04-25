@@ -6,8 +6,7 @@
 
 - The problem with testing an object's internal structure is that we're testing what an object _is_ instead of what it _does_. What an object _does_ is significantly more important. Brittleness can make test suites much more expensive to maintain is the primary reason for test suites to be become ignored and, ultimately discarded
 
-
-#### Chapter 2 - Describing Features
+#### Chapter 3 - Describing Features
 
 - (User stores are an excellent way of describing the scope of a project or a release). When you write user stories, write them in the form of a role and a action.
 
@@ -21,14 +20,14 @@
 - In Cucumber, you can use `Scenario Outline` and a tabular format to dry up your scenario. Format on page 33
 
 
-#### Chapter 3 - Automating features with Cucumber
+#### Chapter 4 - Automating features with Cucumber
 
 - We should have an `env.rb` file in `features/support` directory. The `.rb` extension tells Cucumber that we're using Ruby.
 
 - *TEST DOUBLE*: A fake object that pretends to be real object is called a test doupble. A 'test double' is a generic name for stubs, mocks, fakes, spies etc. 
 
 
-#### Chapter 4 - Describing code with RSpec
+#### Chapter 5 - Describing code with RSpec
 
 - A strict adherence to a structure in which every object has a single example group and evry method has a single code example should be avoided! That sort of structure leads to long examples that take an object through many phases, setting expectations at several stopping points in each example. Examples like these are difficult to write to begin with, and much more difficult to uanderstand and debug later. 
 
