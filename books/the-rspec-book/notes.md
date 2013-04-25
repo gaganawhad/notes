@@ -27,14 +27,6 @@
 
 - *TEST DOUBLE*: A fake object that pretends to be real object is called a test doupble. A 'test double' is a generic name for stubs, mocks, fakes, spies etc. 
 
-- 'One expectation per example' is a good guideline to follow. The rationale there is that if there are two expectations in an example that should both fail given the implementation at that moment, we'll only see the first failure. No sooner do we meet that expectation than we discover that we haven't met the second expectation. If they live in separate examples, then they'll both fail, and that will provide us with more accurate information than if only one of them is failing. 
-
-- `as_null_object`: The book talks about this but doesn't really explain it. Only mentions that it is a design pattern described in 'Pattern Languages of Program Design 3' and is supported by RSpec's `double` framework. - bad book
-
-- `let(:method) {}` 
-        - takes a symbol representing a method name and a block, which represents the implementation of that method
-        - it comes with inbuilt memoization
-
 
 #### Chapter 4 - Describing code with RSpec
 
@@ -47,6 +39,14 @@
 - The `it()` method creates an example. Technically it is an instance of `ExampleGroup` returned by `describe()`. 
 
 - Each spec file requires `spec/spec_helper.rb`, which, incase of an standard ruby project requires `lib/my_project.rb` which inturn then requires all other files required for the project
+
+- 'One expectation per example' is a good guideline to follow. The rationale there is that if there are two expectations in an example that should both fail given the implementation at that moment, we'll only see the first failure. No sooner do we meet that expectation than we discover that we haven't met the second expectation. If they live in separate examples, then they'll both fail, and that will provide us with more accurate information than if only one of them is failing. 
+
+- `as_null_object`: The book talks about this but doesn't really explain it. Only mentions that it is a design pattern described in 'Pattern Languages of Program Design 3' and is supported by RSpec's `double` framework. - bad book
+
+- `let(:method) {}` 
+        - takes a symbol representing a method name and a block, which represents the implementation of that method
+        - it comes with inbuilt memoization
 
 
 
