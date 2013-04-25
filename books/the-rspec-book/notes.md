@@ -1,4 +1,4 @@
-#### Chapter 11
+#### Chapter 12 - Code Examples
 
 - Describe and context are aliases. `describe` is used for objects and `context` to describe contexts. 
 
