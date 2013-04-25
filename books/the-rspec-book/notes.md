@@ -6,6 +6,11 @@
 
 - The problem with testing an object's internal structure is that we're testing what an object _is_ instead of what it _does_. What an object _does_ is significantly more important. Brittleness can make test suites much more expensive to maintain is the primary reason for test suites to be become ignored and, ultimately discarded
 
+#### Chapter 2 - Hello
+
+_Nothing in particular that I felt should be noted_
+
+
 #### Chapter 3 - Describing Features
 
 - (User stores are an excellent way of describing the scope of a project or a release). When you write user stories, write them in the form of a role and a action.
@@ -48,6 +53,9 @@
         - it comes with inbuilt memoization
 
 
+#### Chapter 6 - Adding new features
+
+_Nothing in particular that I felt should be noted_
 
 
 #### Chapter 12 - Code Examples
