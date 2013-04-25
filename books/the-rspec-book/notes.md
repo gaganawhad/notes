@@ -57,6 +57,14 @@ _Nothing in particular that I felt should be noted_
 
 _Nothing in particular that I felt should be noted_
 
+#### Chapter 7 - Specifying an Algorithm
+
+- One of the principles of TDD is writing only enough code to get a failing test to pass - independent of other tests that are still to be worked on. One of the difficult things for people new to TDD is to accept code we know with some certainity is going to change. That it's not the implementation we are going to want when we are finished. 
+
+- One of the benifits of progressing in small steps is that when we introduce a new failure, we know exactly what we did, so we have context in which we can analyze the failure. 
+
+
+
 
 #### Chapter 12 - Code Examples
 
