@@ -21,6 +21,13 @@
 - In Cucumber, you can use `Scenario Outline` and a tabular format to dry up your scenario. Format on page 33
 
 
+#### Chapter 3 - Automating features with Cucumber
+
+- We should have an `env.rb` file in `features/support` directory. The `.rb` extension tells Cucumber that we're using Ruby.
+
+- *TEST DOUBLE*: A fake object that pretends to be real object is called a test doupble. A 'test double' is a generic name for stubs, mocks, fakes, spies etc. 
+
+
 
 
 #### Chapter 12 - Code Examples
