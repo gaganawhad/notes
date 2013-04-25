@@ -1,3 +1,12 @@
+#### Chapter 1 - Introduction
+
+- Rather than thinking TDD as a testing practice, we se it as a technique used to deliver high-quality code to testers, who are responsible for formal testing practices 
+
+- When you are wearing the 'TDD hat', focus on red/green/refactor, design and documentation. Don't think about testing. Once you have developed a body of code, put on your 'tester hat', and think about all the thigns that could go wrong. This is where you add all the crazy edge cases, using exploratory testing to weed out the nasty bugs hiding in the cracks and documenting them as you discover them with more code examples. 
+
+- The problem with testing an object's internal structure is that we're testing what an object _is_ instead of what it _does_. What an object _does_ is significantly more important. Brittleness can make test suites much more expensive to maintain is the primary reason for test suites to be become ignored and, ultimately discarded
+
+
 #### Chapter 12 - Code Examples
 
 - Describe and context are aliases. `describe` is used for objects and `context` to describe contexts. 
