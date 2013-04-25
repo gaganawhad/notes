@@ -7,6 +7,22 @@
 - The problem with testing an object's internal structure is that we're testing what an object _is_ instead of what it _does_. What an object _does_ is significantly more important. Brittleness can make test suites much more expensive to maintain is the primary reason for test suites to be become ignored and, ultimately discarded
 
 
+#### Chapter 2 - Describing Features
+
+- (User stores are an excellent way of describing the scope of a project or a release). When you write user stories, write them in the form of a role and a action.
+
+- A user story should be
+  - adding business value
+  - testable
+  - small enough to implement in one iteration 
+
+- You don't have to stick to the Connextra format of describing a feature in the 'In order to...', 'As a .. ', 'I Should'. You can choose free form narratives, example when describing an algorithm
+
+- In Cucumber, you can use `Scenario Outline` and a tabular format to dry up your scenario. Format on page 33
+
+
+
+
 #### Chapter 12 - Code Examples
 
 - Describe and context are aliases. `describe` is used for objects and `context` to describe contexts. 
