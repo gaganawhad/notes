@@ -63,6 +63,11 @@ _Nothing in particular that I felt should be noted_
 
 - One of the benifits of progressing in small steps is that when we introduce a new failure, we know exactly what we did, so we have context in which we can analyze the failure. 
 
+#### Chapter 8 - Refactoring with Confidence
+
+- Generally we want to avoid writing procedural code (like `each` loops) because it has a tendency to grow in complexity and become progressively difficult to understand and maintain.
+
+- 
 
 
 
