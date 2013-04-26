@@ -67,7 +67,15 @@ _Nothing in particular that I felt should be noted_
 
 - Generally we want to avoid writing procedural code (like `each` loops) because it has a tendency to grow in complexity and become progressively difficult to understand and maintain.
 
-- 
+- Using temp variables within methods should be avoided as it adds to complexity especially as it can get assiged values in several ways, and then its hard to fix bugs.
+
+- "Extract Class" refactoring which the book discusses on pages 86 to 93 was challenging and something I don't easly have a smell for. Refer to the book if you want to think/meditate/read about it again.
+
+- Refactoring can be addictive. Every time we do one refactoring, our attention is drawn to an area of the code we may not have focused on before. We could continue refactoring for ever, but eventually we have to stop and move on.   
+
+- *Exploratory Testing* is a practice in which we discover the behavior of an application by interacting with it directly. We havent tested the app until we haven't interacted with it because BDD / TDD is a design practice, not a testing practice. It by itself fails to unearth all of the corner cases that we'll naturally discover by simply using the software. 
+
+- Refactoring is impossible without a test suite.
 
 
 
