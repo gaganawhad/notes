@@ -81,9 +81,25 @@ _Nothing in particular that I felt should be noted_
 
 _This chapter is written mostly to walk you through a BDD process and applying principles, techniques etc. that have been covered in the previous chapters of this book. Nothing new to note here_
 
+#### Chapter 10 - The Case for BDD & 
+
+_This chapter spends time in looking into the history of traditional software projects, some analysis of why they fail, and gives some history and philosophy of agile software engineering._
+
+#### Chapter 11 - Writing Software That Matters
+
+- *Behavior Driven Development* is about implementing an application by describing its behavior from the perspective of its stakeholders. It started as a simple reframing of Test Driven Devlopment. It implies that there is more than one stakeholder. We don't just look at the world from the point of view of an end user or the person paying the bills but anyone with an interest in the project.
+
+- The philosophy of BDD - 'writing software that matters' means that we write software that has value to a stakeholder that is neither too little to solve the problem nor over-engineered, and that we can demonstrate that it works. It can be summed up in: 
+        1. Enough is enough: Don't do anything less that whats needed to get started but don't do any more either. 
+        2. Deliver stakeholder value: If you are doing something that isn't either delivering value to the stakeholder or increasing your ability to deliver value, stop doing it and do something else. 
+        3. It's all behavior: Behavior is described at any level of granularity - application, module, class, unit etc. 
 
 
+- A *Stakeholder* is anyone who cares about the project in question. The people whose problems we are trying to solve are called _core stakeholders_ and the people who are goin to help solve it are called _incidental stakeholders_.
 
+- From a BDD perspective, there is no such thing as 'non functional requirement', just a feature with an incidnetal stakeholder.
+
+- A 'feature' in BDD is more useful from the point of view of a stakeholder and a 'story' is more useful from th point of view of the team delivering the feature. In Cucumber stories are scenarios.
 
 
 #### Chapter 12 - Code Examples
