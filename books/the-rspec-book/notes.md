@@ -79,7 +79,7 @@ _Nothing in particular that I felt should be noted_
 
 #### Chapter 9 - Feeding back what we have learnt
 
-- _This chapter is written mostly to walk you through a BDD process and applying principles, techniques etc. that have been covered in the previous chapters of this book. Nothing new to note here_
+_This chapter is written mostly to walk you through a BDD process and applying principles, techniques etc. that have been covered in the previous chapters of this book. Nothing new to note here_
 
 
 
