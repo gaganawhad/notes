@@ -77,6 +77,13 @@ _Nothing in particular that I felt should be noted_
 
 - Refactoring is impossible without a test suite.
 
+#### Chapter 9 - Feeding back what we have learnt
+
+- _This chapter is written mostly to walk you through a BDD process and applying principles, techniques etc. that have been covered in the previous chapters of this book. Nothing new to note here_
+
+
+
+
 
 
 #### Chapter 12 - Code Examples
