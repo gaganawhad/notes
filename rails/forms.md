@@ -1,4 +1,4 @@
-### ->Rails forms notes <-
+### Rails forms notes
 
 - `fields_for` can be used two ways. One in which it is called on a form builder object `<%= f.fields_for ... %>` and one in which it is called independing of a form builder `<%= fields_for ... %>`. In the latter case it passes the fields independent of the object attributes hash that might be existing in the `form_for` block that it might be nested in. 
 
@@ -11,6 +11,7 @@
 - If you use `f.fields_for` without a corresponding `..._attributes=` method in the parent class, then the fields in the form will be passed inside the hash containing the attribtues of the parent object. These fields will not have the `_attributes` added to the the key of the hash. 
 
 
+-------
 #### some code to understand how fields_for works 
 
 ```erb
