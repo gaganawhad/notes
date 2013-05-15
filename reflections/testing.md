@@ -13,3 +13,6 @@
 - When you are testing code, it is really important that you don't test implementation (or what the object is) but behavior (i.e. what the object is doing). When applied that to acceptance testing, why should we test controllers?  
 
 - Sandi Metz agrees that we shouldn't test controllers in acceptance testing - "Don't put any logic in controllers and don't test your controllers" 
+
+- When you are writing Object Oriented Software, you think in terms of classes and think through where and how code should be organized. It makes sense to think through the structure when you are doing that. However, when writing tests focus solely on each test/example. The idea is that you write that tests well, and don't make it brittle. Don't worry about example groups, or setting up data efficiently. They are just tools to help you write better tests and maintain a better suite - but not at the cost of wirting a good test. You can worry about keeping things DRY, setting up data, setting up example groups and speeding up the test suite when refactoring the tests.  
+
