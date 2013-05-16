@@ -16,3 +16,7 @@
 
 - When you are writing Object Oriented Software, you think in terms of classes and think through where and how code should be organized. It makes sense to think through the structure when you are doing that. However, when writing tests focus solely on each test/example. The idea is that you write that tests well, and don't make it brittle. Don't worry about example groups, or setting up data efficiently. They are just tools to help you write better tests and maintain a better suite - but not at the cost of wirting a good test. You can worry about keeping things DRY, setting up data, setting up example groups and speeding up the test suite when refactoring the tests.  
 
+- When you want to test for making sure that say 50 objects are returned in a collection by a method, you might want to make the number 50 a variable, and have a smaller variable be passed in your actuall tests, like 5, and test that ther aren't 6 records returned by the method 
+
+- When writing tests you want to think through what is worth testing? In for-profit business there is a easier co-relation between functioning code and how much money they make, and so it make sense to write better and more comprehensive tests that could break easily. The opposite would apply to other areas of code testing. 
+
