@@ -16,7 +16,10 @@
 
 - When you are writing Object Oriented Software, you think in terms of classes and think through where and how code should be organized. It makes sense to think through the structure when you are doing that. However, when writing tests focus solely on each test/example. The idea is that you write that tests well, and don't make it brittle. Don't worry about example groups, or setting up data efficiently. They are just tools to help you write better tests and maintain a better suite - but not at the cost of wirting a good test. You can worry about keeping things DRY, setting up data, setting up example groups and speeding up the test suite when refactoring the tests.  
 
-- When you want to test for making sure that say 50 objects are returned in a collection by a method, you might want to make the number 50 a variable, and have a smaller variable be passed in your actuall tests, like 5, and test that ther aren't 6 records returned by the method 
+- When you want to test for making sure that say 50 objects are returned in a collection by a method, you might want to make the number 50 a variable, and have a smaller variable be passed in your actuall tests, like 5, and test that ther aren't 6 records returned by the method. Suppose you are testing for pagination and want to make sure that 50 records are returned and not 51. You don't want to create 50 records because such things can slow down your tests. Myron Marston recommends that he would "tend to make the page size configurable in some way (maybe even just by stubbing the constant), and then set it to a small value in your test and create one more record than that"
 
 - When writing tests you want to think through what is worth testing? In for-profit business there is a easier co-relation between functioning code and how much money they make, and so it make sense to write better and more comprehensive tests that could break easily. The opposite would apply to other areas of code testing. 
 
+- Writing 100% test coverage isn't a good practice. 
+
+- When you start working on a new project, start writing acceptance tests. Don't focus too tightly on unit tests. The code that you will write is too volatile. When it starts talking a form, then you can start writing and locking down unit tests. 
