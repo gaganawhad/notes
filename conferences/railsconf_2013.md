@@ -165,17 +165,21 @@ posgres
 
 #### maintable templates - loudermilk
 
-- reasons: 
-        - markup repetition
-        - logic in templates
+- reasons for unmaintainable templates: 
+  - markup repetition
+  - logic in templates
 
+- avoid markup repitition by using partials. 
 
 - logic in templates is supposed to be difficult to test
 
+- A decorator (generic definition):
+  * Wraps a single object
+  * Has a transparent interface
+  * Forwards methods to original objects
 
-- while hepers are sueful, bug projects end up with tons of hlelpers.  they are difficult to organize. complex logic isn't well suited for them. some peopel like to do it on the model. 
-
-- use decorator pattersn
+- A view decorator: 
+  * Adds presentation logic to models without affecting the model itself
 
 wraps a slinge object
 transparent interfeace - overlaps the 
