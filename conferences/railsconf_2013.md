@@ -181,43 +181,21 @@ posgres
 - A view decorator: 
   * Adds presentation logic to models without affecting the model itself
 
-wraps a slinge object
-transparent interfeace - overlaps the 
-forward methods to original object. 
 
-add s presentationsl logc to modesl 
+- intitalize - method take the object you want to decorate. 
+- if something is direclty related to a model, it should be put in the decorator. 
 
+Draper is a gem that does a bunch of these things for us
 
-intitalize - method take the object you want to decorate. 
-
-if something is direclty related to a model, it should be put in the decorator. 
-
-
-use draper
-
-
-
-complex views - connected wth user expereicnes 
-
-example some code to remove names of participatns of a 
 
 
 Presentation model: 
 
-
-
-
-to initialize the presentation model, use a holepr.
-
-Form builders are aan example of this. 
-
-look into gems simple_forms / table_cloth
-
-
-puts view presenations classes in lib
-
-
-if its something that would go into a helper then it should go into a view object
+complex views - connected wth user experiences
+- To initialize the presentation model, use a helper to initialize this.
+- Form builders are aan example of this. 
+- put view presenations classes in lib
+- if its something that would go into a helper then it should go into a view object
 
 
 cells gem - take a look at it
