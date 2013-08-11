@@ -15,3 +15,5 @@
 - It is important to manage releases appropriately. It is imporant to get the attention of stake holders early, and to LOCK in the features and not have any feature requests be added near the release date. If stakeholders want features added near the deadline it is important that the release is pushed for a few more iterations. 
 
 - Fast feedback cycles, whether from your stakeholders, your test suite or CI is an important factor in being able to write good code
+
+- The business rule of undercommmit and overdeliver applies to software development
