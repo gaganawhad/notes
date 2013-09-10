@@ -23,3 +23,5 @@
 - Writing 100% test coverage isn't a good practice. 
 
 - When you start working on a new project, start writing acceptance tests. Don't focus too tightly on unit tests. The code that you will write is too volatile. When it starts talking a form, then you can start writing and locking down unit tests. 
+
+- It is important to have a green test suite passing continuously. It doesn't just help to know where thet tests are failing. A red test suite is a good place to introduce more bugs that will be hard to isolate to a particular commit if the project is not continuously green as a habbit
