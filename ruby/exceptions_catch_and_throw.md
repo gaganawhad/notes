@@ -11,6 +11,14 @@
 - `rescue` clause 
   - For the rescue clause to get executed, the raised exception should match the parameter passed to `rescue`. The match will get executed if the exception named in the rescue clause is the same as the type of the currently thrown exception or is a superclass of that exception. 
   - If you write the rescue clause with no parameter list, the parameter defaults to `StandardError`
+  - Note that while `begin ... rescue ... end` may be the default syntax to using `rescue`, `def` can behave has a subsitute for `begin`. Example: 
+```ruby
+      def do_this
+        ...
+      rescue 
+        ...
+      end
+```
 
 - `ensure` clause
   - Sometimes you need to guarantee that some processing is done at the end of a block of code, regardless of whether an exception was raised. Use the `ensure` clause in that case. `ensure` goes after the last `rescue` clause. 
