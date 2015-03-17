@@ -13,8 +13,9 @@ These notes are dreived from [this talk](https://www.youtube.com/watch?v=X2sgQ38
 ##### Body
 
 ###### Self
-- Is the current object
-- where instance variable and methods called (without the x.method_name format) are found
+- current object
+- where instance variables are found
+- default receiver for method calls.( i.e. when done without the the x.method_name format)
 
 When does self change ?
 - Only *2* things change slef
@@ -30,14 +31,19 @@ animal = "cat"
 
 - `animal` is a reference to the object "cat"
 - That `Object` has state and behavior
-- state is stored in that Object
-- it holds a pointer to another *ruby `Object`* that holds, as a part of _its state_ a table that has behavior definition (keeps behavior defintion DRY)
+- state is stored in _that_ Object
+
+
+- Fundamentally, all a Class is, in ruby, is an Object that contains a table of methods. For example, String class is a table of methods for string objects.
+- it holds a pointer to another *ruby `Object`* that holds, as a part of _its state_ a table that has behavior definition of the methods (keeps behavior defintion DRY)
 - _that_ table is the String class.
-- the pointer that poitns to that table is the class pointer.
-- animal.class will result in the String
+- the pointer that points to that table is the class pointer.
+- `animal.class` will result in the String
 - String itself is an object.
 
 
-- Every single method call in Ruby works the same way: It follows the following rule
-  *go to its `class` `object` and find the mothod and invoke it. If method is not found go to that objects parent and find the method and invoke it. Continue finding the method in the parent until you hit BasicObject. Object inherits from BasicObject*
+- Every method call in Ruby works the same way: It follows the following rule
+    - go to its `class` `object` and find the method and invoke it.
+    - If method is not found go to that objects parent and find the method and invoke it.
+    - Continue finding the method in the hierarchy until you hit BasicObject/Object. ( Depending on the ruby version Object inherits from BasicObject).
 - BasicObject has method definition for 'method_missing'
